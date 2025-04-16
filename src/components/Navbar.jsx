@@ -17,9 +17,9 @@ function Navbar() {
       </div>
 
       {/* Header Section */}
-      <header className="flex flex-col md:flex-row justify-between items-center px-10 py-6 border-b border-gray-300">
+      <header className="flex flex-col md:flex-row justify-between items-center px-6 py-6 border-b border-gray-300">
         <div className="flex justify-between w-full items-center">
-          <h1 className="text-2xl font-bold tracking-widest">CHARMIS</h1>
+          <h1 className="text-2xl font-bold tracking-widest text-center md:text-left">CHARMIS</h1>
           
           {/* Hamburger Menu for Mobile */}
           <button 
@@ -31,12 +31,12 @@ function Navbar() {
         </div>
 
         {/* Navigation Links */}
-        <nav className={`space-y-4 md:space-x-6 md:flex md:space-y-0 mt-4 md:mt-0 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <a href="#" className="border-b-2 border-[#3b2e28] pb-1">HOME</a>
-          <a href="#">SHOP</a>
-          <a href="#">NEW COLLECTION</a>
-          <a href="#">ORDER</a>
-          <a href="#">CONTACT</a>
+        <nav className={`space-y-4 md:space-x-6 md:flex md:space-y-0 mt-4 md:mt-0 ${isMenuOpen ? 'block' : 'hidden'} md:block w-full md:w-auto bg-white md:bg-transparent p-6 md:p-0`}>
+          <a href="#" className="block text-center md:text-left py-2 md:py-0 border-b-2 border-[#3b2e28] pb-1">HOME</a>
+          <a href="#" className="block text-center md:text-left py-2 md:py-0">SHOP</a>
+          <a href="#" className="block text-center md:text-left py-2 md:py-0">NEW COLLECTION</a>
+          <a href="#" className="block text-center md:text-left py-2 md:py-0">ORDER</a>
+          <a href="#" className="block text-center md:text-left py-2 md:py-0">CONTACT</a>
         </nav>
 
         {/* Social Media Icons */}
