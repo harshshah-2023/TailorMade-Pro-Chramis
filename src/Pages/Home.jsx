@@ -19,17 +19,26 @@ const HomePage = () => {
     <div className="w-full overflow-x-hidden bg-[#f8f1ea] text-[#3b2e28] font-serif">
       {/* Hero Section */}
       <section className="text-center py-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center md:px-10">
-          <img src={earring2} className="rounded-md w-full h-auto max-h-[300px] object-cover" alt="earring" />
-          <div>
-            <h2 className="text-3xl md:text-5xl font-light leading-snug">
-              The New Charmis <br /> collection is live!
-            </h2>
-          </div>
-          <img src={handring} className="rounded-md w-full h-auto max-h-[300px] object-cover" alt="hand ring" />
-        </div>
-        <p className="text-lg mt-6 tracking-widest uppercase">Shop Now</p>
-      </section>
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center md:px-10">
+    {/* Hide these images on small screens */}
+    <img
+      src={earring2}
+      className="rounded-md w-full h-auto max-h-[300px] object-cover md:block hidden"
+      alt="earring"
+    />
+    <div>
+      <h2 className="text-3xl md:text-5xl font-light leading-snug">
+        The New Charmis <br /> collection is live!
+      </h2>
+    </div>
+    <img
+      src={handring}
+      className="rounded-md w-full h-auto max-h-[300px] object-cover md:block hidden"
+      alt="hand ring"
+    />
+  </div>
+  <p className="text-lg mt-6 tracking-widest uppercase">Shop Now</p>
+</section>
 
       {/* Welcome Section */}
       <section className="bg-[#bb8e72] text-white py-16 px-4">
