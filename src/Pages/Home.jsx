@@ -65,7 +65,7 @@ const HomePage = () => {
           {[{ img: lehenga, title: "Lehenga", desc: "Elegant designs for special occasions" },
             { img: pink, title: "Kurti", desc: "Comfort meets style in everyday wear" },
             { img: morden, title: "Tops", desc: "Trendy tops for every vibe" },
-            { img: spaghetti, title: "Jeans", desc: "Bold & chic — for your everyday fit" }]
+            { img: spaghetti, title: "Gowns", desc: "Bold & chic — for your everyday fit" }]
             .map((item, idx) => (
               <div key={idx} className="cursor-pointer overflow-hidden rounded-md transition-transform duration-500 hover:scale-105 hover:shadow-md">
                 <img src={item.img} className="rounded-md w-full h-[250px] object-cover" alt={item.title} />
