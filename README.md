@@ -4,6 +4,11 @@
 
 > This is a UI/UX prototype version. The complete business logic and backend are private as per client deployment strategy.
 
+#Note
+
+This version includes only the frontend UI (with client approval). The full deployed site with backend is private.
+
+
 ---
 
 ## Project Highlights
