@@ -1,12 +1,35 @@
-# React + Vite
+# TailorMade Pro — Boutique Fashion Website (Client Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TailorMade Pro** is a sleek, fully responsive boutique website built for a fashion retail client to elevate their digital presence and customer experience. This production-ready UI/UX prototype was developed using modern frontend technologies including **React.js**, **Tailwind CSS**, and **HTML/CSS**, with an emphasis on clean design, performance, and responsiveness.
 
-Currently, two official plugins are available:
+> This is a UI/UX prototype version. The complete business logic and backend are private as per client deployment strategy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Project Highlights
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  **Elegant Fashion-Focused UI**  
+  Clean, minimalist design tailored for premium fashion branding and showcasing collections.
+
+-  **Fully Responsive Layout**  
+  Optimized for all screen sizes — mobile, tablet, and desktop.
+
+- ⚛ **React-Based Component Architecture**  
+  Reusable, scalable, and maintainable components.
+
+-  **Tailwind CSS Integration**  
+  Utility-first CSS for fast development and pixel-perfect styling.
+
+-  **Client-Centered Design Approach**  
+  UX refined through iterative feedback loops with the client and real users.
+
+---
+
+##  Tech Stack
+
+| Frontend    | Styling        | Tooling     |
+|-------------|----------------|-------------|
+| React.js    | Tailwind CSS   | Vite        |
+| HTML5       | Custom CSS     | Git/GitHub  |
+
+
